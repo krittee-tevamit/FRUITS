@@ -21,6 +21,10 @@
 		48121CE22A88B4BF00B8F272 /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48121CE12A88B4BF00B8F272 /* FruitDetailView.swift */; };
 		48121CE42A88BBC500B8F272 /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48121CE32A88BBC500B8F272 /* FruitHeaderView.swift */; };
 		48121CE62A88CDF300B8F272 /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48121CE52A88CDF300B8F272 /* SourceLinkView.swift */; };
+		48121CE82A88D01200B8F272 /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48121CE72A88D01200B8F272 /* FruitNutrientsView.swift */; };
+		48121CEA2A88D57600B8F272 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48121CE92A88D57600B8F272 /* SettingsView.swift */; };
+		48121CEC2A88D99800B8F272 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48121CEB2A88D99800B8F272 /* SettingsLabelView.swift */; };
+		48121CEE2A88DCB200B8F272 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48121CED2A88DCB200B8F272 /* SettingsRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,10 @@
 		48121CE12A88B4BF00B8F272 /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
 		48121CE32A88BBC500B8F272 /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
 		48121CE52A88CDF300B8F272 /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
+		48121CE72A88D01200B8F272 /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
+		48121CE92A88D57600B8F272 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		48121CEB2A88D99800B8F272 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
+		48121CED2A88DCB200B8F272 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,7 @@
 				48121CC22A874F4400B8F272 /* ContentView.swift */,
 				48121CD72A8796A600B8F272 /* OnboardingView.swift */,
 				48121CE12A88B4BF00B8F272 /* FruitDetailView.swift */,
+				48121CE92A88D57600B8F272 /* SettingsView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -109,6 +118,9 @@
 				48121CDF2A88A8FC00B8F272 /* FruitRowView.swift */,
 				48121CE32A88BBC500B8F272 /* FruitHeaderView.swift */,
 				48121CE52A88CDF300B8F272 /* SourceLinkView.swift */,
+				48121CE72A88D01200B8F272 /* FruitNutrientsView.swift */,
+				48121CEB2A88D99800B8F272 /* SettingsLabelView.swift */,
+				48121CED2A88DCB200B8F272 /* SettingsRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -210,13 +222,17 @@
 				48121CD12A877A2300B8F272 /* FruitCardView.swift in Sources */,
 				48121CDB2A87C72800B8F272 /* FruitModel.swift in Sources */,
 				48121CE22A88B4BF00B8F272 /* FruitDetailView.swift in Sources */,
+				48121CEA2A88D57600B8F272 /* SettingsView.swift in Sources */,
+				48121CE82A88D01200B8F272 /* FruitNutrientsView.swift in Sources */,
 				48121CE02A88A8FC00B8F272 /* FruitRowView.swift in Sources */,
 				48121CD42A877D4200B8F272 /* Color.swift in Sources */,
 				48121CC32A874F4400B8F272 /* ContentView.swift in Sources */,
 				48121CD82A8796A600B8F272 /* OnboardingView.swift in Sources */,
 				48121CE42A88BBC500B8F272 /* FruitHeaderView.swift in Sources */,
 				48121CD62A8780BE00B8F272 /* StartButtonView.swift in Sources */,
+				48121CEE2A88DCB200B8F272 /* SettingsRowView.swift in Sources */,
 				48121CE62A88CDF300B8F272 /* SourceLinkView.swift in Sources */,
+				48121CEC2A88D99800B8F272 /* SettingsLabelView.swift in Sources */,
 				48121CDE2A87C7C200B8F272 /* FruitData.swift in Sources */,
 				48121CC12A874F4400B8F272 /* FRUITSApp.swift in Sources */,
 			);
